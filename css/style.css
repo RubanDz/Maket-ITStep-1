@@ -70,12 +70,13 @@ html {
   align-items: center;
 }
 
-.header__list-item::before {
+.header__list-item+.header__list-item::before {
   content: "";
   display: block;
   width: 0.4rem;
   height: 0.4rem;
   background: #EE3124;
+  margin: 0 40px;
 }
 
   
