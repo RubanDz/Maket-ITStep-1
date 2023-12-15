@@ -76,6 +76,7 @@ html {
   width: 0.4rem;
   height: 0.4rem;
   background: #EE3124;
+  border-radius: 50%;
   margin: 0 40px;
 }
 
