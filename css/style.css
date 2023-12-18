@@ -4,6 +4,10 @@
 html {
    font-family: 'Montserrat Alternates', 'Tahoma', sans-serif;
    font-size: 10px;
+   color: #24252E;
+}
+.app-content-wrapper {
+   padding: 0px 8rem;
 }
   
 
@@ -47,17 +51,28 @@ html {
    border: 1px solid #CED5DD;
    background-color: #FFFFFF;
 }
-.header {
+/* .header {
    display: flex;
    justify-content: space-between;
    align-items: center;
    background: #E2E8F7;
    padding: 32px 80px;
 
-}
+} */
+.header-content-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #E2E8F7;
+
+   padding-top: 3.2rem;
+   padding-bottom: 3.2rem;
+   
+   }
 .header__list {
    display: flex;
    justify-content: space-between;
+ 
    align-items: center;
    font-size: 1.8rem;
    font-weight: 400;
@@ -68,6 +83,7 @@ html {
   text-transform: uppercase;
   display: flex;
   align-items: center;
+  
 }
 
 .header__list-item+.header__list-item::before {
@@ -77,8 +93,79 @@ html {
   height: 0.4rem;
   background: #EE3124;
   border-radius: 50%;
-  margin: 0 40px;
+  margin: 40px;
 }
+/*18 dec 2023*/
+.link {
+   border: none;
+}
+.link:focus {
+   outline: none;
+}
+.link:hover {
+   color: #EE3124;
+}
+.link:active {
+   color: blue;
+}
+.logo {
+   width: max-content;
+   flex-shrink: 0;
+}
+
+.logo__icon {
+   width: 100%;
+   max-width: 100%;
+   object-fit: contain;
+  
+}
+
+.avatar {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 1px solid #A1BCE8;
+}
+.avatar__icon {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+}
+.comment__user-info {
+   display: flex;
+}
+.comment__user-info {
+   display: flex;
+   gap: 1.2rem;
+}
+.comment__user-info-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 0.4rem;
+}
+
+
+.text {
+   font-weight: 400;
+   font-size: 1.6rem;
+}
+
+.comment__user-name {
+   font-weight: 500;
+}
+.comment__user-job text {
+ color: #7F7F7F;
+
+
+
+}
+  
+ 
+
+
+
+  
+
 
   
  
