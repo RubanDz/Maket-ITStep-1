@@ -93,7 +93,7 @@ html {
   height: 0.4rem;
   background: #EE3124;
   border-radius: 50%;
-  margin: 40px;
+  margin: 0 40px;
 }
 /*18 dec 2023*/
 .link {
@@ -106,7 +106,7 @@ html {
    color: #EE3124;
 }
 .link:active {
-   color: blue;
+   color: navy;
 }
 .logo {
    width: max-content;
@@ -133,11 +133,10 @@ html {
 }
 .comment__user-info {
    display: flex;
-}
-.comment__user-info {
-   display: flex;
+   align-items: center;
    gap: 1.2rem;
 }
+
 .comment__user-info-wrapper {
    display: flex;
    flex-direction: column;
@@ -155,10 +154,22 @@ html {
 }
 .comment__user-job text {
  color: #7F7F7F;
-
-
-
 }
+.comment-wrapper {
+   display: flex;
+   flex-direction: column;
+   max-width: 397px;
+   gap: 2rem;
+}
+.comment {
+   border: 1px solid #E2E8F7;
+   padding: 40px;
+   max-width: 477px;
+   border-radius: 40px
+}
+
+
+
   
  
 
