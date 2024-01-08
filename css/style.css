@@ -237,11 +237,46 @@ html {
    top: -4px;
    left: 4px;
 }
+
+/* Иконка квадрат */
+.icon_type_square .icon__images-container {
+   width: 76px;
+   height: 76px;
+   top: -8px;
+   left: 24px;
+}
+/* Иконка heard */
+.icon_type_heard .icon__images-container {
+   width: 90px;
+   height: 78px;
+}
+/* Иконка arrow */
+.icon_type_arrow .icon__images-container {
+   width: 83px;
+   height: 74px;
+   top: -7px;
+   left: 16px;
+}
+.icon_type_arrow .icon__cirkle,
+.icon_type_square .icon__cirkle {
+   background: #A1BCE8;
+}
+
+  
+
    
 
 
 
 
+
+
+
+
+   
+   
+
+  
 
 
  
