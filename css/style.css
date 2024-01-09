@@ -238,7 +238,7 @@ html {
    left: 4px;
 }
 
-/* Иконка квадрат */
+/* Иконка square */
 .icon_type_square .icon__images-container {
    width: 76px;
    height: 76px;
@@ -261,7 +261,13 @@ html {
 .icon_type_square .icon__cirkle {
    background: #A1BCE8;
 }
-
+/* Иконка star */
+.icon_type_star .icon__images-container {
+   width: 85.06px;
+   height: 81.52px;
+   top: -13px;
+   left: 15.92px;
+}
   
 
    
