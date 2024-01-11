@@ -273,17 +273,112 @@ html {
 .card {
    width: 262px;
    height: 224px;
-   background: linear-gradient(0deg, #E2E8F7, #E2E8F7),
-   linear-gradient(0deg, #F6FCFF, #F6FCFF);
+   background-color: #F6FCFF;
    border-radius: 40px;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   font-size: 18px;
-   text-align: center;
-   border: 1px solid #E2E8F7
+   border: 1px solid #E2E8F7;
+   margin: 0 auto;
 }
+ 
+  
+
+.card__icon {
+   margin-top: 20px;
+   margin-bottom: 40px;
+} 
+.card__text {
+   text-align: center;
+   font-size: 1.8rem;
+   line-height: 2.1rem;
+   margin-bottom: 20px;
+   font-weight: 400;
+}
+
+
+/* MAIN */
+.main-content-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #E2E8F7;
+}
+.title {
+   font-size: 5.52rem;
+   font-weight: 700;
+   line-height: 6.3rem;
+   text-transform: uppercase;
+}
+.title_size_sm {
+   line-height: 4.9rem;
+   font-size: 4rem;
+   text-transform: none;
+} /* Пересмотреть почему все uppercase*/
+.title_text_red {
+ color:#EE3124
+}
+.main__text {
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 3.6rem;
+}
+.main__image-container {
+   width: 605px;
+   height: 605px;
+   display: flex;
+}
+.main__image {
+   width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+}
+.main__info-container {
+   max-width: 561px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+.main__btn {
+   width: 226px;
+}
+.dvantage-content-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+.advantage-card-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+/*Смотреть к чему это*/
+.comments-content-wrapper {
+   padding-top: 80px;
+   padding-bottom: 80px;
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+
+/* Стрелки внизу комментарий */
+.comments
+ 
+ 
+ 
+
+   
+ 
+
+  
+
+
+
+
+   
+   
 
   
 
