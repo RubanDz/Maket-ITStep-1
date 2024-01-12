@@ -156,6 +156,7 @@ html {
  color: #7F7F7F;
 }
 .comment-wrapper {
+   /* background-color: white; */
    display: flex;
    flex-direction: column;
    max-width: 397px;
@@ -168,6 +169,7 @@ html {
    border-radius: 40px;
    position: relative; /*отпозиционировали*/
    /* margin: 50px auto; */
+   background-color: white;
    
 }
 .comment__quotes {
@@ -311,11 +313,15 @@ html {
    line-height: 6.3rem;
    text-transform: uppercase;
 }
+
 .title_size_sm {
    line-height: 4.9rem;
    font-size: 4rem;
+} 
+.title_text-transform {
    text-transform: none;
-} /* Пересмотреть почему все uppercase*/
+}
+  
 .title_text_red {
  color:#EE3124
 }
@@ -327,7 +333,7 @@ html {
 .main__image-container {
    width: 605px;
    height: 605px;
-   display: flex;
+  
 }
 .main__image {
    width: 100%;
@@ -335,13 +341,13 @@ html {
    object-fit: contain;
 }
 .main__info-container {
-   max-width: 561px;
+   width: 561px;
    display: flex;
    flex-direction: column;
    gap: 40px;
 }
 .main__btn {
-   width: 226px;
+   width: 227px;
 }
 .dvantage-content-wrapper {
    display: flex;
@@ -354,17 +360,41 @@ html {
    display: flex;
    justify-content: space-between;
 }
-/*Смотреть к чему это*/
+
 .comments-content-wrapper {
+   background-color: #E2E8F7;
    padding-top: 80px;
    padding-bottom: 80px;
    display: flex;
    justify-content: center;
    gap: 50px;
+   position: relative;
+}
+.comments__arrow-left {
+   width: 50px;
+   height: 1px;
+   background-color: black;
+   position: absolute;
+   bottom: 20px;
+}
+.comments__arrow-left::after {
+   content: "";
+   display: block;
+   width: 14px;
+   height: 1px;
+   background: red;
+   transform: translateY(-6px) rotate(-23deg) translateX(0px);
+}
+.comments__arrow-left::before {
+   content: "";
+   display: block;
+   width: 14px;
+   height: 1px;
+   background-color: red;
+   transform: translateY(6px) rotate(23deg) translateX(0px);
 }
 
-/* Стрелки внизу комментарий */
-/* .comments... */
+
  
  
  
