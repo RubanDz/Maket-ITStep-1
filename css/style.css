@@ -18,6 +18,12 @@ html {
    line-height: 1.95rem;
    padding: 16px 32px;
 }
+/* СМотреть где ФОТО ТЕЛЕФОНА *//*------------------------------------------*/
+
+
+
+
+
 .btn:active {
    scale: 0.95;
 }
@@ -50,6 +56,19 @@ html {
 .btn_theme_secondary:disabled {
    border: 1px solid #CED5DD;
    background-color: #FFFFFF;
+}
+
+
+.btn_type_phone {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   flex-shrink: 0;
+   display: block;
+   padding: 0;
+   background-image: url('../assets/img/call.png');
+   background-repeat:no-repeat;
+   background-position: center;
 }
 /* .header {
    display: flex;
@@ -370,36 +389,119 @@ html {
    gap: 50px;
    position: relative;
 }
-.comments__arrow-left {
+
+
+
+.comment__controllers-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   position: absolute;
+   bottom: 40px;
+   transform: translateX(-50%);
+}
+
+.comments__arrow {
    width: 50px;
    height: 1px;
-   background-color: black;
+   position: relative;
+}
+
+
+.comments__arrow::before,
+.comments__arrow::after {
+   content: "";
+   display: block;
+   width: 5px;
+   height: 1px;
    position: absolute;
-   bottom: 20px;
-}
-.comments__arrow-left::after {
-   content: "";
-   display: block;
-   width: 14px;
-   height: 1px;
-   background: red;
-   transform: translateY(-6px) rotate(-23deg) translateX(0px);
-}
-.comments__arrow-left::before {
-   content: "";
-   display: block;
-   width: 14px;
-   height: 1px;
-   background-color: red;
-   transform: translateY(6px) rotate(23deg) translateX(0px);
+   top: 0;
 }
 
 
- 
- 
- 
 
+
+.comments__arrow_left::before {
+   transform: translateY(2px) rotate(45deg) translateX(0px);
+}
+.comments__arrow_left::after {
+   transform: translateY(-2px) rotate(-45deg) translateX(0px);
+}
+.comments__arrow_left::before,
+.comments__arrow_left::after {
+   left: 0;
+   background-color: #CED5DD;
+}
+.comments__arrow_left {
+   background-color: #CED5DD;
+}
    
+
+
+  /*......................................*/
+.comments__arrow_right::before {
+   transform: translateY(2px) rotate(-45deg) translateX(0px);
+}
+.comments__arrow_right::after {
+   transform: translateY(-2px) rotate(45deg) translateX(0px);
+}
+.comments__arrow_right::before,
+.comments__arrow_right::after {
+   right: 0;
+   background-color: #24252E;
+ }
+ .comments__arrow_right {
+    background-color: #24252E;
+ }
+ 
+
+  @media screen and (max-width: 1230px) {
+   .app-content-wrapper {
+      padding-left: 44px;
+      padding-right: 44px;
+   }
+
+
+
+   .btn_type_phone {
+      display: block;
+   }
+   .header__btn {
+      display: none;
+   }
+   .header__list-item + .header__list-item::before {
+      margin: 0 30px;
+   }
+}
+
+  @media screen and (max-width: 1110px) {
+   .header-content-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 46px;
+   }
+   .btn_type_phone {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      
+   }
+
+}
+ 
+   
+
+ 
+
+
+
+  
+ 
+ 
+ 
+
+
  
 
   
