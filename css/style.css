@@ -383,6 +383,7 @@ html {
 .advantage-card-wrapper {
    display: flex;
    justify-content: space-between;
+   padding-bottom: 8rem;
 }
 
 .comments-content-wrapper {
@@ -727,6 +728,10 @@ html {
       align-items: flex-start;
       gap: 32px;
    }
+   .comments-content-wrapper {
+      padding-bottom: 8rem;
+   }
+
 
 }
    
