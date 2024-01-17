@@ -339,6 +339,8 @@ html {
 } 
 .title_text-transform {
    text-transform: none;
+   padding-top: 80px;
+   padding-bottom: 80px;
 }
   
 .title_text_red {
@@ -368,6 +370,9 @@ html {
 .main__btn {
    width: 227px;
 }
+/* .advantage {
+   padding-top: 80px;
+} */
 .dvantage-content-wrapper {
    display: flex;
    flex-direction: column;
@@ -389,6 +394,8 @@ html {
    gap: 50px;
    position: relative;
 }
+  
+
 
 
 
@@ -399,7 +406,7 @@ html {
    gap: 40px;
    position: absolute;
    bottom: 40px;
-   transform: translateX(-50%);
+   /* transform: translateX(-50%); */
 }
 
 .comments__arrow {
@@ -454,6 +461,45 @@ html {
  .comments__arrow_right {
     background-color: #24252E;
  }
+/*............................................*/
+.footer-content-wrapper {
+   padding-top: 8rem;
+   padding-bottom: 8rem;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.form {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   border-radius: 100px;
+   padding: 40px 77px;
+   background-color: #24252E;
+}
+.form input {
+   outline: none;
+   width: 260px;
+   padding: 12px 20px;
+   border-radius: 50px;
+}
+/*..........................................*/
+.vacansii {
+   padding:8rem;
+}
+.vacansii__items {
+   display: flex;
+   justify-content: space-between;
+   padding: 2rem;
+}
+.main__text_smoll {
+   font-size: 1.8rem;
+}
+ 
+   
+ 
+
  
 
   @media screen and (max-width: 1230px) {
@@ -473,6 +519,10 @@ html {
    .header__list-item + .header__list-item::before {
       margin: 0 30px;
    }
+   .main-content-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
 }
 
   @media screen and (max-width: 1110px) {
@@ -487,9 +537,64 @@ html {
       top: 20px;
       
    }
+   .advantage-content-wrapper {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      gap: 40px;
+     
+   }
+
+   .vacancies-content-wrapper {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      gap: 40px;
+
+   }
+   .comments-content-wrapper {
+      padding-top: 4rem;
+   }
+   .footer-content-wrapper {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      gap: 40px;
+   }
+   .form {
+      flex-direction: column;
+      max-width: 340px;
+      border-radius: 20px;
+      padding: 40px;
+      align-self: center;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .advantage-card-wrapper {
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+   }
+   .vacansii__items {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+   }
+   .vacansii__items .btn {
+      width: 334px;
+   }
+   .comments-content-wrapper {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media screen and (max-width: 414px) {
 
 }
+   
+
  
+
    
 
  
