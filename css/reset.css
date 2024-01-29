@@ -10,6 +10,7 @@ input,
 textarea {
    font: inherit;
    outline: none;
+   color: inherit;
 }
 button {
    outline: none;
@@ -17,3 +18,9 @@ button {
 ul {
    list-style-type: none;
 }
+a {
+   text-decoration: none;
+}
+
+
+
